@@ -108,7 +108,7 @@ class RiffyPlugin extends RuntimePlugin<RiffyPluginOptions> {
     Logger.info(`${this.name}: Bridging Riffy events to the "${namespace}" namespace.`);
     for (const event of eventsToBridge) {
       client.riffy.on(event, (...args: any[]) => {
-        ctx.commandkit.events.to(namespace).emit(event, ...args);
+        ctx.commandkit.events.to(namespace).emit(event, ...args, client);
       });
     }
   }
