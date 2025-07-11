@@ -1,0 +1,27 @@
+{
+  "name": "commandkit-plugin-riffy",
+  "version": "1.0.0",
+  "description": "This is a CommandKit plugin that allows you to use commandkit's event system to listen to Riffy events.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "commandkit",
+    "plugin",
+    "riffy"
+  ],
+  "author": "Juna",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "commandkit": "^1.0.0-dev.20250710125439",
+    "discord.js": "^14.21.0",
+    "riffy": "^1.0.7",
+    "typescript": "^5.3.3"
+  }
+}
