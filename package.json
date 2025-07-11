@@ -4,7 +4,7 @@
   "description": "This is a CommandKit plugin that allows you to use commandkit's event system to listen to Riffy events.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
+  "type": "commonjs",
   "keywords": [
     "commandkit",
     "plugin",
