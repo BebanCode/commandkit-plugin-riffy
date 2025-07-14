@@ -1,0 +1,29 @@
+{
+  "name": "commandkit-plugin-riffy",
+  "version": "0.0.1",
+  "description": "A CommandKit Runtime Plugin for initializing Riffy Lavalink Client.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "keywords": [
+    "commandkit",
+    "plugin",
+    "riffy"
+  ],
+  "author": "Juna",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "commandkit": "^1.0.0-dev.20250710125439",
+    "discord.js": "^14.21.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "riffy": "^1.0.7"
+  }
+}
