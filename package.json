@@ -16,7 +16,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
     "commandkit": "^1.0.0-dev.20250710125439",
