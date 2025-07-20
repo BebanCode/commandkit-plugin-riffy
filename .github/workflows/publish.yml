@@ -1,6 +1,12 @@
 name: Publish to NPM
 
 on: 
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
   release: 
     types: [created] 
 
