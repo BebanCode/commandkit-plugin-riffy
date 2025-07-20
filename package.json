@@ -2,6 +2,13 @@
   "name": "commandkit-plugin-riffy",
   "version": "0.0.2",
   "description": "A CommandKit Runtime Plugin for initializing Riffy Lavalink Client.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BebanCode/commandkit-plugin-riffy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BebanCode/commandkit-plugin-riffy/issues"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "commonjs",
