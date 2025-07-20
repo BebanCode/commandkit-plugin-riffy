@@ -1,6 +1,6 @@
 {
   "name": "commandkit-plugin-riffy",
-  "version": "0.0.2",
+  "version": "0.0.2-part-2",
   "description": "A CommandKit Runtime Plugin for initializing Riffy Lavalink Client.",
   "repository": {
     "type": "git",
